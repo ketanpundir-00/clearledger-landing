@@ -1,0 +1,56 @@
+:root {
+  --gold: #0369A1;
+  --gold-light: #0284C7;
+  --gold-dark: #075985;
+  --gold-pale: #DBEAFE;
+  --black: #1A1208;
+  --white: #FAFAF8;
+  --white2: #F5F3EE;
+  --white3: #EDE9E0;
+  --gray: #6B6560;
+  --gray-light: #9B9590;
+  --text: #1A1208;
+  --green: #16A34A;
+  --red: #DC2626;
+  --border: #E8E3D8;
+  --border-dark: #D4CEC0;
+  --font-playfair: var(--font-playfair);
+  --font-dm: var(--font-dm);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--white);
+  color: var(--text);
+  font-family: var(--font-dm), 'DM Sans', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(1.4); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
