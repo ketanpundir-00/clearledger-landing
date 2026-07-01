@@ -137,6 +137,8 @@
   margin-bottom: 28px;
   letter-spacing: -1px;
   animation: fadeUp 0.6s ease 0.1s both;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .gold { color: var(--gold); }
@@ -854,7 +856,7 @@
 }
 
 @media (max-width: 480px) {
-  .heroTitle { letter-spacing: -0.5px; }
+  .heroTitle { letter-spacing: -0.5px; font-size: clamp(32px, 9vw, 44px); }
   .heroSub { font-size: 16px; }
   .btnPrimary, .btnSecondary { width: 100%; justify-content: center; }
   .heroActions { flex-direction: column; }
