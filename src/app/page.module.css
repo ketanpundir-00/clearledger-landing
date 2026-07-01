@@ -856,7 +856,7 @@
 }
 
 @media (max-width: 480px) {
-  .heroTitle { letter-spacing: -0.5px; font-size: clamp(32px, 9vw, 44px); }
+  .heroTitle { letter-spacing: -0.5px; font-size: clamp(28px, 8vw, 40px); }
   .heroSub { font-size: 16px; }
   .btnPrimary, .btnSecondary { width: 100%; justify-content: center; }
   .heroActions { flex-direction: column; }
