@@ -125,8 +125,8 @@ export default function Home() {
             🇮🇳 Built for Indian Businesses
           </div>
           <h1 className={styles.heroTitle}>
-            Stop Wasting Hours<br />
-            on <span className={styles.gold}>Messy Data.</span>
+            Stop Wasting Hours on<br />
+	    <span className={styles.gold}>Bank Reconciliation & GST Filing.</span>
           </h1>
           <p className={styles.heroSub}>
             ClearLedger cleans your Excel, CSV & PDF files in seconds —
