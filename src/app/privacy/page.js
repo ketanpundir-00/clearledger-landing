@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
       <a href="/" style={{ color: '#0369A1', textDecoration: 'none', fontSize: '14px' }}>← Back to Home</a>
 
       <h1 style={{ fontSize: '36px', fontWeight: '900', marginTop: '32px', marginBottom: '8px' }}>Privacy Policy</h1>
-      <p style={{ color: '#6B6560', fontSize: '14px', marginBottom: '40px' }}>Last updated: June 2026</p>
+      <p style={{ color: '#6B6560', fontSize: '14px', marginBottom: '40px' }}>Last updated: July 2026</p>
 
       <section style={{ marginBottom: '36px' }}>
         <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>1. Introduction</h2>
@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
 
       <section style={{ marginBottom: '36px' }}>
         <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>4. File Deletion</h2>
-        <p style={{ lineHeight: '1.8', color: '#3a3530' }}>All uploaded files are automatically and permanently deleted from our servers within <strong>48 hours</strong> of upload. You can also request immediate deletion by contacting us at support@clearledger.co.in.</p>
+        <p style={{ lineHeight: '1.8', color: '#3a3530' }}>All uploaded files are automatically and permanently deleted from our servers within <strong>48 hours</strong> of upload. You can also delete individual files immediately at any time from within the platform, or contact us at support@clearledger.co.in.</p>
       </section>
 
       <section style={{ marginBottom: '36px' }}>
@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
 
       <section style={{ marginBottom: '36px' }}>
         <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>9. Account Data Retention</h2>
-        <p style={{ lineHeight: '1.8', color: '#3a3530' }}>Your uploaded files are deleted within 48 hours as described above. Your account information (such as your email address) is retained for as long as your account remains active. If you wish to delete your account and associated information entirely, contact us at support@clearledger.co.in and we will process the request.</p>
+        <p style={{ lineHeight: '1.8', color: '#3a3530' }}>Your uploaded files are deleted within 48 hours as described above. Your account information (such as your email address) is retained for as long as your account remains active. You can permanently delete your account and all associated data at any time using the "Delete Account" option available within the platform (under your profile menu). This action is immediate and irreversible. Alternatively, you may contact us at support@clearledger.co.in to request account deletion.</p>
       </section>
 
       <section style={{ marginBottom: '36px' }}>
@@ -78,7 +78,7 @@ export default function PrivacyPolicy() {
 
       <section style={{ marginBottom: '36px' }}>
         <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>14. Your Rights</h2>
-        <p style={{ lineHeight: '1.8', color: '#3a3530' }}>You can request deletion of your data at any time by contacting us at <a href="mailto:support@clearledger.co.in" style={{ color: '#0369A1' }}>support@clearledger.co.in</a>.</p>
+        <p style={{ lineHeight: '1.8', color: '#3a3530' }}>You have the right to access, correct, and erase your personal data. You can delete your account and all associated data instantly using the "Delete Account" option within the platform, or request deletion, correction, or access to your data at any time by contacting us at <a href="mailto:support@clearledger.co.in" style={{ color: '#0369A1' }}>support@clearledger.co.in</a>. Requests made via email are processed within 90 days.</p>
       </section>
 
       <section style={{ marginBottom: '36px' }}>
