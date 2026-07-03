@@ -109,7 +109,7 @@ export default function Home() {
             <li><a href="#usecases">Who It&apos;s For</a></li>
             <li><a href="/gst-2b-reconciliation">GST Recon</a></li>
             <li><a href="/bank-reconciliation">Bank Recon</a></li>
-            <li><a href="#blog">Blog</a></li>
+            <li><a href="/blog">Blog</a></li>
             <li><a href="#feedback">Feedback</a></li>
             <li><a href={APP_URL} className={styles.navCta}>Start Free →</a></li>
           </ul>
@@ -414,7 +414,7 @@ export default function Home() {
           <ul className={styles.footerLinks}>
             <li><a href="/gst-2b-reconciliation">GST Reconciliation</a></li>
             <li><a href="/bank-reconciliation">Bank Reconciliation</a></li>
-            <li><a href="#blog">Blog</a></li>
+            <li><a href="/blog">Blog</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="/terms">Terms of Service</a></li>
             <li><a href="mailto:support@clearledger.co.in">support@clearledger.co.in</a></li>
