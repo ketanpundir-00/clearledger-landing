@@ -42,37 +42,42 @@ export default function TermsOfService() {
       </section>
 
       <section style={{ marginBottom: '36px' }}>
-        <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>7. No Professional Advice</h2>
+        <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>7. GSTIN & PAN Validation</h2>
+        <p style={{ lineHeight: '1.8', color: '#3a3530' }}>Our GSTIN and PAN validation features check only the structural format of these numbers as per government-defined patterns (character length, sequence, and checksum pattern). This does <strong>not</strong> constitute verification against live GSTN or Income Tax Department databases. ClearLedger does not confirm registration status, active/cancelled status, or name-matching with any government authority. Users are responsible for independently verifying such details through official government portals before relying on this data for compliance or legal purposes.</p>
+      </section>
+
+      <section style={{ marginBottom: '36px' }}>
+        <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>8. No Professional Advice</h2>
         <p style={{ lineHeight: '1.8', color: '#3a3530' }}>ClearLedger does not provide legal advice, tax advice, accounting certification, auditing services, or financial consultancy. Any generated output should not be treated as certified professional advice.</p>
       </section>
 
       <section style={{ marginBottom: '36px' }}>
-        <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>8. Free Tier & Paid Plans</h2>
+        <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>9. Free Tier & Paid Plans</h2>
         <p style={{ lineHeight: '1.8', color: '#3a3530' }}>ClearLedger offers a free tier for your first file. Free users can upload up to <strong>10 files per month</strong>. This monthly limit is based on the total number of files uploaded in the calendar month and is not reduced or reset by deleting files. Paid plans are available for higher usage. Pricing may change with prior notice.</p>
       </section>
 
       <section style={{ marginBottom: '36px' }}>
-        <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>9. Service Availability</h2>
+        <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>10. Service Availability</h2>
         <p style={{ lineHeight: '1.8', color: '#3a3530' }}>We may modify features, suspend services, introduce limits, perform maintenance, or discontinue functionality at any time without prior notice.</p>
       </section>
 
       <section style={{ marginBottom: '36px' }}>
-        <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>10. Account Termination</h2>
+        <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>11. Account Termination</h2>
         <p style={{ lineHeight: '1.8', color: '#3a3530' }}>You may permanently delete your account at any time using the "Delete Account" option available within the platform under your profile menu. Doing so will immediately and permanently delete your account, all uploaded files, saved templates, narration rules, workflows, and any other data associated with your account. <strong>This action cannot be undone.</strong> You may sign up again using the same Google account in the future, but your previous data will not be recoverable. We may also suspend or terminate accounts that violate these Terms, without prior notice.</p>
       </section>
 
       <section style={{ marginBottom: '36px' }}>
-        <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>11. Limitation of Liability</h2>
+        <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>12. Limitation of Liability</h2>
         <p style={{ lineHeight: '1.8', color: '#3a3530' }}>Under no circumstances shall ClearLedger be liable for data loss, incorrect outputs, financial damages, tax penalties, compliance failures, business losses, or indirect damages resulting from platform usage. All services are provided on an "as is" and "as available" basis without warranties of any kind.</p>
       </section>
 
       <section style={{ marginBottom: '36px' }}>
-        <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>12. Governing Law</h2>
+        <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>13. Governing Law</h2>
         <p style={{ lineHeight: '1.8', color: '#3a3530' }}>These Terms are governed by the laws of India. Any disputes shall be subject to the exclusive jurisdiction of courts in India.</p>
       </section>
 
       <section style={{ marginBottom: '36px' }}>
-        <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>13. Contact</h2>
+        <h2 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: '#0369A1' }}>14. Contact</h2>
         <p style={{ lineHeight: '1.8', color: '#3a3530' }}>For any questions about these Terms, contact us at <a href="mailto:support@clearledger.co.in" style={{ color: '#0369A1' }}>support@clearledger.co.in</a>.</p>
       </section>
     </main>
