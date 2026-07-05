@@ -7,6 +7,9 @@ const APP_URL = 'https://app.clearledger.co.in'
 export default function Home() {
   const [openFaq, setOpenFaq] = useState(0)
   const [scrolled, setScrolled] = useState(false)
+  const [fbSubmitting, setFbSubmitting] = useState(false)
+  const [fbSubmitted, setFbSubmitted] = useState(false)
+  const [fbError, setFbError] = useState(false)
   const observerRef = useRef(null)
 
   useEffect(() => {
@@ -332,14 +335,30 @@ export default function Home() {
           <p className={styles.sectionSub}>We're in beta — your feedback directly shapes what we build next.</p>
           <form
             className={styles.feedbackForm}
-            action="https://formsubmit.co/support@clearledger.co.in"
-            method="POST"
+            onSubmit={async (e) => {
+              e.preventDefault()
+              setFbSubmitting(true)
+              setFbError(false)
+              const formData = new FormData(e.target)
+              try {
+                const res = await fetch('https://formsubmit.co/ajax/support@clearledger.co.in', {
+                  method: 'POST',
+                  headers: { 'Accept': 'application/json' },
+                  body: formData
+                })
+                if (!res.ok) throw new Error('failed')
+                setFbSubmitted(true)
+                e.target.reset()
+              } catch (err) {
+                setFbError(true)
+              } finally {
+                setFbSubmitting(false)
+              }
+            }}
           >
             <input type="hidden" name="_subject" value="ClearLedger Beta Feedback" />
             <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_template" value="table" />
-
-            <div className={styles.feedbackRow}>
+            <input type="hidden" name="_template" value="table" />            <div className={styles.feedbackRow}>
               <div className={styles.feedbackField}>
                 <label className={styles.feedbackLabel}>Your Role *</label>
                 <select name="role" className={styles.feedbackInput} required>
@@ -400,9 +419,20 @@ export default function Home() {
               <input type="email" name="email" className={styles.feedbackInput} placeholder="you@example.com" />
             </div>
 
-            <button type="submit" className={styles.feedbackSubmit}>
-              Send Feedback →
+            <button type="submit" className={styles.feedbackSubmit} disabled={fbSubmitting}>
+              {fbSubmitting ? "Sending..." : "Send Feedback →"}
             </button>
+
+            {fbSubmitted && (
+              <p style={{ color: "#16a34a", fontSize: "14px", marginTop: "12px", fontWeight: 600 }}>
+                ✓ Thanks! Your feedback has been received.
+              </p>
+            )}
+            {fbError && (
+              <p style={{ color: "#dc2626", fontSize: "14px", marginTop: "12px", fontWeight: 600 }}>
+                Couldn't send — please try again or email support@clearledger.co.in directly.
+              </p>
+            )}
           </form>
         </div>
       </section>
