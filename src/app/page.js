@@ -129,7 +129,7 @@ export default function Home() {
           </div>
           <h1 className={styles.heroTitle}>
             Stop Wasting Hours on<br />
-	    <span className={styles.gold}>Bank Reconciliation & GST Filing.</span>
+	    <span className={styles.gold}>Bank & GST Reconciliation.</span>
           </h1>
           <p className={styles.heroSub}>
             ClearLedger cleans your Excel, CSV & PDF files in seconds —
